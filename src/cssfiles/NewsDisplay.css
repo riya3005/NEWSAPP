@@ -1,0 +1,40 @@
+.NewsDisplay {
+    width: 100vh;
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.textdisplay {
+    width: 100vh;
+    padding: 10px;
+    padding-top: 30px;
+    position: relative;
+}
+
+.title {
+    font-size: larger;
+    font-weight: bold;
+    color: darkblue;
+    padding-bottom: 10px;
+}
+
+.content {
+    font-size: medium;
+    color: black;
+    font-weight: normal;
+}
+
+.atTheEnd {
+    font-size: small;
+    font-weight: normal;
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 30px; 
+
+}

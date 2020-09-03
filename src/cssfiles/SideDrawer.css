@@ -1,0 +1,40 @@
+.side_drawer {
+    width: 25%;
+    background-color: black;
+    height: 100%;
+    position: absolute;
+    z-index: 200;
+    top: 80px;
+    left: 0px;
+    width: 200px;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-out;
+    
+}
+
+.side_drawer.open {
+    transform: translateX(0);
+}
+
+.side_drawer ul {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.side_drawer button{
+    font-size: large;
+    color: lightgray;
+    background-color: black;
+    width: 100%;
+    padding: 10px 0;
+    margin: 2px;
+    border: none;
+
+    
+    
+}
